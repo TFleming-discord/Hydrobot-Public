@@ -110,7 +110,7 @@ function writeToLeaderboard(msg){
        var userOldScore = lb[user]
        lb[user] = lb[user] + 1
        fs.readFile("leaderboards.js", {encoding: 'utf8'}, function (err,data) {
-           var formatted = data.replace("\"" + user + "\"" + ":" + userOldScore, "\"" + user + "\"" + ":" + lb[user]);                                        //"231907842922119178":1,
+           var formatted = data.replace("\"" + user + "\"" + ":" + userOldScore, "\"" + user + "\"" + ":" + lb[user]);
            console.log("Writing to file")
            console.log(lb)
            fs.writeFile("leaderboards.js", formatted, 'utf8', function (err) {
