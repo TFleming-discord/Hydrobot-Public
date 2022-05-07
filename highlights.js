@@ -3,7 +3,7 @@ function writeToLeaderboard(msg){
     import('./leaderboards.js')
     .then(leaderboard => {
         var user = msg.author.id
-        if(231907842922119178 in leaderboard){
+        if(int(my discord id lol) in leaderboard){
            console.log("User is in leaderboard.")
             var tempScore = leaderboard[user]
             readFile("leaderboards.js", {enconding: 'utf8'}, function (err,data) {
