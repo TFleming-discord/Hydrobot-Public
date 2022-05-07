@@ -26,7 +26,7 @@ function writeToLeaderboard(msg){
         }
     })   
     
-}
+}//took me like 2 weeks oh my god
 
 function sleep(ms) {//sleep function to pause bot if needed
     return new Promise(resolve => setTimeout(resolve, ms));
