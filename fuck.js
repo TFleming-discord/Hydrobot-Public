@@ -4,14 +4,14 @@
 //var fs = require('fs')
 
 /*var filename = "leaderboards.js"
-var datatoappend = "YoshiLamer:2"
+var datatoappend = "guy lol:2"
 
-var user = "YoshiLamer"
+var user = "guy lol"
 var score = 2
 var Null = "Null:0"
 
 readFile("leaderboards.js", {encoding: 'utf8'}, function (err,data) {
-  var formatted = data.replace(/Null:0/g, 231907842922119178 + ":" + 1 + ",\n    Null:0");
+  var formatted = data.replace(/Null:0/g, also my discord id + ":" + 1 + ",\n    Null:0");
   console.log("Adding new index")
   writeFile("leaderboards.js", formatted, 'utf8', function (err) {
    if (err) return console.log(err);
@@ -20,7 +20,7 @@ readFile("leaderboards.js", {encoding: 'utf8'}, function (err,data) {
 
 import('./leaderboards.js')
   .then(leaderboard => {
-  console.log(231907842922119178 in leaderboard)
+  console.log(ALSO my discord id in leaderboard)
   //import { leaderboard } from './leaderboards.js'
 })
 
